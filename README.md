@@ -58,7 +58,7 @@ Via metódo POST, passaremos o corpo do objeto JSON a ser inserido
   "name": "Ramom"
 }
 ```
-#####Inserindo Vendedor
+##### Inserindo Vendedor
 ```sh
 http://localhost:8000/seller/
 ```
@@ -78,7 +78,7 @@ Via metódo POST, passaremos o corpo do objeto JSON a ser inserido
 }
 ```
 
-#####Inserindo um produto
+##### Inserindo um produto
 ```sh
 http://localhost:8000/product/
 ```
@@ -104,7 +104,7 @@ Via metódo POST, passaremos o corpo do objeto JSON a ser inserido
 ]
 ```
 
-#####Inserindo uma venda
+##### Inserindo uma venda
 ```sh
 http://localhost:8000/sale/
 ```
@@ -144,7 +144,7 @@ Via metódo POST, passaremos o corpo do objeto JSON a ser inserido
 }
 ```
 
-#####Inserindo uma Item de linha(Repesenta a lista de Itens selecionados para venda)
+##### Inserindo uma Item de linha(Repesenta a lista de Itens selecionados para venda)
 Relacionamento da venda com os produtos
 ```sh
 http://localhost:8000/lineitem/
